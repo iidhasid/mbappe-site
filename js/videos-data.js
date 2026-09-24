@@ -1,0 +1,312 @@
+// Client work portfolio data.
+// #pure-data -- no rendering logic lives here. Edit this array directly.
+window.VIDEOS_DATA = [
+  {
+    "id": "v01",
+    "title": "Goal Rush — Football in Aswan",
+    "videoUrl": "assets/videos/portfolio/v01.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v01.jpg",
+    "category": "beauty",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 48.7
+  },
+  {
+    "id": "v02",
+    "title": "Jamila Nomwear — Threads of the South",
+    "videoUrl": "assets/videos/portfolio/v02.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v02.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 51.1
+  },
+  {
+    "id": "v03",
+    "title": "Aswan, In Its Beauty — Riverlight",
+    "videoUrl": "assets/videos/portfolio/v03.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v03.jpg?v=3",
+    "category": "beauty",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 109.2
+  },
+  {
+    "id": "v04",
+    "title": "El Safa Market — Midnight Merchants",
+    "videoUrl": "assets/videos/portfolio/v04.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v04.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 84.8
+  },
+  {
+    "id": "v05",
+    "title": "Iron Hour — Gym Session Cuts",
+    "videoUrl": "assets/videos/portfolio/v05.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v05.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 29
+  },
+  {
+    "id": "v06",
+    "title": "عشماوي — The Thriller Cut",
+    "videoUrl": "assets/videos/portfolio/v06.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v06.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 11.4
+  },
+  {
+    "id": "v07",
+    "title": "Jousa — An Aswanian Table",
+    "videoUrl": "assets/videos/portfolio/v07.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v07.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 37.9
+  },
+  {
+    "id": "v08",
+    "title": "Speed School — How to Get Faster",
+    "videoUrl": "assets/videos/portfolio/v08.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v08.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 34.3
+  },
+  {
+    "id": "v09",
+    "title": "جمبريكا — Flavour of the River",
+    "videoUrl": "assets/videos/portfolio/v09.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v09.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 20.9
+  },
+  {
+    "id": "v10",
+    "title": "Workout Edit — Iron & Focus",
+    "videoUrl": "assets/videos/portfolio/v10.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v10.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 24.2
+  },
+  {
+    "id": "v11",
+    "title": "Java Bay — Slow Sips, Nile Views",
+    "videoUrl": "assets/videos/portfolio/v11.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v11.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 45
+  },
+  {
+    "id": "v12",
+    "title": "عشماوي — Aswan Menu",
+    "videoUrl": "assets/videos/portfolio/v12.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v12.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 26.9
+  },
+  {
+    "id": "v13",
+    "title": "Am Saleh — The Kebda Kings",
+    "videoUrl": "assets/videos/portfolio/v13.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v13.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 70.9
+  },
+  {
+    "id": "v14",
+    "title": "Ash One — Street Cut",
+    "videoUrl": "assets/videos/portfolio/v14.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v14.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 18.4
+  },
+  {
+    "id": "v15",
+    "title": "عشماوي — Golden Hour Grill",
+    "videoUrl": "assets/videos/portfolio/v15.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v15.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 45.9
+  },
+  {
+    "id": "v16",
+    "title": "Mars Holanda — Corner Stories",
+    "videoUrl": "assets/videos/portfolio/v16.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v16.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 72.7
+  },
+  {
+    "id": "v17",
+    "title": "CV Drinks — Special Offer",
+    "videoUrl": "assets/videos/portfolio/v17.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v17.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 14.4
+  },
+  {
+    "id": "v18",
+    "title": "Aswan, Again — More Beauty",
+    "videoUrl": "assets/videos/portfolio/v18.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v18.jpg",
+    "category": "beauty",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 118.1
+  },
+  {
+    "id": "v19",
+    "title": "MD10 Sport — Gear Drop",
+    "videoUrl": "assets/videos/portfolio/v19.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v19.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 43.4
+  },
+  {
+    "id": "v20",
+    "title": "Edit Magic — How It's Made",
+    "videoUrl": "assets/videos/portfolio/v20.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v20.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 46.1
+  },
+  {
+    "id": "v21",
+    "title": "Food Edit — Served Slow",
+    "videoUrl": "assets/videos/portfolio/v21.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v21.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 20.5
+  },
+  {
+    "id": "v22",
+    "title": "جمبريكا — Special Offer",
+    "videoUrl": "assets/videos/portfolio/v22.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v22.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 15
+  },
+  {
+    "id": "v23",
+    "title": "Ibrahim & the Workshop — Metal Hands",
+    "videoUrl": "assets/videos/portfolio/v23.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v23.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 50.2
+  },
+  {
+    "id": "v24",
+    "title": "جمبريكا — Big Bite Discount",
+    "videoUrl": "assets/videos/portfolio/v24.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v24.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 15.9
+  },
+  {
+    "id": "v25",
+    "title": "Just Run — No Rules",
+    "videoUrl": "assets/videos/portfolio/v25.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v25.jpg",
+    "category": "beauty",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "landscape",
+    "durationSec": 29.3
+  },
+  {
+    "id": "v26",
+    "title": "عشماوي — Eid in Aswan",
+    "videoUrl": "assets/videos/portfolio/v26.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v26.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 38.4
+  },
+  {
+    "id": "v27",
+    "title": "عشماوي — New on the Menu",
+    "videoUrl": "assets/videos/portfolio/v27.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v27.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 30.4
+  },
+  {
+    "id": "v28",
+    "title": "Saint Trais School — Aswan Days",
+    "videoUrl": "assets/videos/portfolio/v28.mp4?v=5",
+    "thumbnailUrl": "assets/img/thumbs/v28.jpg",
+    "category": "ads",
+    "location": "Aswan",
+    "qualityStandard": "4K_Standardized",
+    "orientation": "portrait",
+    "durationSec": 79.7
+  }
+];

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MBAPPE — Aswan / Nile</title>
+<meta name="description" content="MBAPPE — Aswan, Egypt. Eye of Horus energy, Nile-born discipline. High-contrast training visuals on the edge of the Nile." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@300;400;600;800;900&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader" aria-hidden="true">
+  <div class="pre-inner">
+    <div class="pre-logo">
+      <img src="assets/img/logo.png" alt="MBAPPE Eye of Horus logo" />
+    </div>
+    <div class="pre-name">
+      <span class="pre-letter">M</span><span class="pre-letter">B</span><span class="pre-letter">A</span><span class="pre-letter">P</span><span class="pre-letter">P</span><span class="pre-letter">E</span>
+    </div>
+    <div class="pre-count">00</div>
+    <div class="pre-sub">ASWAN · THE NILE</div>
+    <div class="pre-credit">MADE BY MAZEN MBAPPE</div>
+  </div>
+</div>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div class="progress"><span id="progressBar"></span></div>
+
+<!-- ============ THREE.JS HERO STAGE ============ -->
+<div id="stage"><canvas id="threeCanvas"></canvas></div>
+
+<!-- ============ GRAIN OVERLAY ============ -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ CURSOR ============ -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a href="#top" class="nav-logo" data-cursor="view">
+    <img src="assets/img/logo.png" alt="MBAPPE Eye of Horus" />
+  </a>
+  <div class="nav-wordmark" aria-hidden="true">
+    <span class="wm-row">M</span><span class="wm-row">B</span><span class="wm-row">A</span><span class="wm-row">P</span><span class="wm-row">P</span><span class="wm-row">E</span>
+  </div>
+  <nav class="nav-links">
+    <a href="#work" data-scroll>Work</a>
+    <a href="#portfolio" data-scroll>Feeds</a>
+    <a href="#about" data-scroll>About</a>
+    <a href="#contact" data-scroll>Contact</a>
+  </nav>
+  <button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="menu" id="menu" aria-hidden="true">
+  <nav>
+    <a href="#work" data-scroll>Work</a>
+    <a href="#portfolio" data-scroll>Feeds</a>
+    <a href="#about" data-scroll>About</a>
+    <a href="#contact" data-scroll>Contact</a>
+  </nav>
+  <div class="menu-horus">
+    <img src="assets/img/logo.png" alt="" />
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO (pinned scrub video) ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-stage">
+      <video class="hero-video" src="assets/videos/work-1.mp4" muted playsinline preload="auto" loop></video>
+      <div class="hero-veil"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow split-line">أَسْوَان · حَاضِرَةُ النِّيل</p>
+      <h1 class="hero-title split-char">
+        <span class="hero-line">MBAPPE</span>
+      </h1>
+      <p class="hero-arabic split-line" dir="rtl">ما تراه ليس كما يبدو</p>
+      <p class="hero-sub split-line">Aswan-based photographer &amp; editor.<br />Every frame self-shot, self-lit, self-graded — film-like, feed-ready.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-solid" data-cursor="magnetic" data-scroll>Watch the work</a>
+        <a href="https://www.instagram.com/m__mbappe" target="_blank" rel="noopener" class="btn btn-ghost" data-cursor="magnetic">@m__mbappe</a>
+      </div>
+      <p class="hero-credit split-line">Made by Mazen mbappe</p>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <i></i>
+    </div>
+
+    <div class="hero-glyphs" aria-hidden="true">
+      <svg viewBox="0 0 100 100" class="glyph glyph-a"><use href="#horusGlyph"/></svg>
+      <svg viewBox="0 0 100 100" class="glyph glyph-b"><use href="#horusGlyph"/></svg>
+      <svg viewBox="0 0 100 100" class="glyph glyph-c"><use href="#horusGlyph"/></svg>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>MBAPPE</span><span>·</span>
+      <span>ASWAN</span><span>·</span>
+      <span>EYE OF HORUS</span><span>·</span>
+      <span>THE NILE</span><span>·</span>
+      <span>NUBIAN</span><span>·</span>
+      <span>STRENGTH</span><span>·</span>
+      <!-- duplicated for seamless loop -->
+      <span>MBAPPE</span><span>·</span>
+      <span>ASWAN</span><span>·</span>
+      <span>EYE OF HORUS</span><span>·</span>
+      <span>THE NILE</span><span>·</span>
+      <span>NUBIAN</span><span>·</span>
+      <span>STRENGTH</span><span>·</span>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container">
+      <p class="kicker split-child">01 — The Cartouche</p>
+      <div class="about-grid">
+        <div class="about-visual" data-cursor="view">
+          <div class="about-frame">
+            <video class="ab-video" src="assets/videos/work-2.mp4" muted playsinline preload="auto" loop></video>
+          </div>
+          <figcaption><span>THE WORK</span><span class="cap-line"></span><span>ASWAN · EGYPT</span></figcaption>
+        </div>
+        <div class="about-copy">
+          <h2 class="section-title split-char">TRAINING AS RITUAL</h2>
+          <p class="split-line">Aswan-born shooter with an eye for light that most people pay campaigns for. He frames, lights and grades every frame himself — then delivers reels and stills straight from the phone, no middle steps.</p>
+          <p class="split-line mute" dir="rtl">عينا حورس تحرسُ الطريق · ما تراه ليس كما يبدو</p>
+          <ul class="about-list">
+            <li class="split-line"><span>01</span> Editorial training &amp; athlete portraits</li>
+            <li class="split-line"><span>02</span> Street, river &amp; sunset location work</li>
+            <li class="split-line"><span>03</span> Reels, stills &amp; full sessions — graded end-to-end</li>
+          </ul>
+          <a href="#contact" class="btn btn-solid" data-cursor="magnetic" data-scroll>Start a project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section class="work" id="work">
+    <div class="container">
+      <p class="kicker split-child">02 — The Reels</p>
+      <div class="work-head">
+        <h2 class="section-title split-char">SELECTED <br />WORK</h2>
+        <p class="split-line">A selection from a recent roll — shot, cut and graded by Mazen mbappe in Aswan. Click any clip to pause.</p>
+      </div>
+    </div>
+
+    <div class="reel reel-a" id="reelA">
+      <div class="reel-inner">
+        <div class="reel-media">
+          <video class="rv-a feed-video" src="assets/videos/work-1.mp4" muted playsinline preload="auto"></video>
+        </div>
+        <div class="reel-copy">
+          <span class="reel-index">01 / HORUS</span>
+          <h3 class="split-char">THE <br/>GLOW</h3>
+          <p>Studio-light portraiture and neon tones — the kind of frame that stops a thumb mid-scroll.</p>
+          <span class="reel-tag">Loops on itself</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="reel reel-b" id="reelB">
+      <div class="reel-inner">
+        <div class="reel-copy">
+          <span class="reel-index">02 / NILE</span>
+          <h3 class="split-char">THE <br/>WEIGHT</h3>
+          <p>Golden-hour athlete portraits against the river — editorial light, no retouching tricks.</p>
+          <span class="reel-tag">Vertical reel cut</span>
+        </div>
+        <div class="reel-media">
+          <video class="rv-b feed-video" src="assets/videos/work-2.mp4" muted playsinline preload="auto" loop></video>
+          <span class="reel-progress" aria-hidden="true"><i></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CLIENT WORK ============ -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <p class="kicker split-child">03 — The Feeds</p>
+      <div class="work-head">
+        <h2 class="section-title split-char">CLIENT <br />WORK</h2>
+        <p class="split-line">Two feeds — brand ads, and Egypt in its raw beauty. Every clip shot and graded to one standard by Mazen mbappe.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div data-folio></div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <span class="stat-num" data-count="100">0</span><span class="stat-suffix">%</span>
+        <p class="stat-label">Raw, no gimmicks</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="1200">0</span><span class="stat-suffix">+</span>
+        <p class="stat-label">Hours on the riverbank</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="3100">0</span><span class="stat-suffix">KM</span>
+        <p class="stat-label">The Nile, north to south</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="1">0</span><span class="stat-suffix">/1</span>
+        <p class="stat-label">Eye that sees all</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="kicker split-child">04 — Reach the Old South</p>
+      <p class="contact-arabic split-line" dir="rtl">ما تراه ليس كما يبدو — اكتب لنا</p>
+      <h2 class="section-title contact-title split-char">LET'S <br/>TALK</h2>
+      <div class="contact-cards">
+        <a class="ccard" href="https://www.instagram.com/m__mbappe" target="_blank" rel="noopener" data-cursor="magnetic">
+          <span class="ccard-idx">IG</span>
+          <span class="ccard-label">Instagram</span>
+          <span class="ccard-value">@m__mbappe</span>
+        </a>
+        <a class="ccard" href="mailto:mazenyasser090@gmail.com" data-cursor="magnetic">
+          <span class="ccard-idx">@</span>
+          <span class="ccard-label">Email</span>
+          <span class="ccard-value">mazenyasser090@gmail.com</span>
+        </a>
+        <a class="ccard" href="tel:+201102299648" data-cursor="magnetic">
+          <span class="ccard-idx">+20</span>
+          <span class="ccard-label">Phone / WhatsApp</span>
+          <span class="ccard-value">0110 229 9648</span>
+        </a>
+      </div>
+      <p class="contact-note">Direct line &amp; email — most messages get an answer the same day.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-row">
+    <span>Made by Mazen mbappe · © 2026</span>
+    <a href="#top" data-scroll>Back to the Eye ↑</a>
+  </div>
+</footer>
+
+<!-- ============ SVG DEFS (Eye of Horus line, reused in hero) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="horusGlyph" viewBox="0 0 100 100">
+      <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M35 45 L55 38 L70 45 L55 52 Z" />
+        <path d="M70 45 C78 49 82 55 80 62 C76 68 68 69 63 66" />
+        <path d="M35 45 L28 40 M35 45 L28 49 M35 45 L32 52" />
+        <path d="M70 45 C72 41 77 39 81 41 C84 43 84 47 81 49" />
+        <path d="M55 38 L55 25 L59 22" />
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============ LIBS (CDN) ============ -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js"
+  }
+}
+</script>
+<script type="module" src="js/scene.js"></script>
+<script src="js/videos-data.js"></script>
+<script src="js/portfolio.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
